@@ -5,6 +5,7 @@
 body{
 	background-image: radial-gradient(circle at center, #899Dc4, #495D84);
 	//background: linear-gradient(330deg, #27156E, #6A2A88, #9F4981);
+	background:#0f172a;
 }
 #content{
 	position:relative;
@@ -115,7 +116,6 @@ body{
 }
 
 
-
 @keyframes sideSlide {
  
 
@@ -128,7 +128,7 @@ body{
 
 
 .heading h2 {
-	//color:White;
+	color:#cbd5f5;
 	margin-left:45px;
 	padding-bottom:15px;
 	letter-spacing: 3px;
@@ -148,7 +148,8 @@ body{
 	margin-left:50px;
 	max-width:1000px;
 	//background-color:green;
-	color:#00ffff;
+	//color:#00ffff;
+	color:#38bdf8;
 	font-size:20px;
 	animation: an 2s ease-out 1 both;
 }
@@ -218,9 +219,10 @@ body{
 
 
 #java{
-	background: url('https://api.iconify.design/fa6-brands/java.svg?color=black&width=75&height=75') no-repeat center center / contain;
-	content: url('https://api.iconify.design/fa6-brands/java.svg?color=black&width=75&height=75');
+	background: url('https://api.iconify.design/fa6-brands/java.svg?color=white&width=75&height=75') no-repeat center center / contain;
+	content: url('https://api.iconify.design/fa6-brands/java.svg?color=white&width=75&height=75');
 }
+/*
 #java:hover{
 	//background-color:red;
 	//background: linear-gradient(to bottom, #ffcc00 0%, #99ffcc 100%);
@@ -228,56 +230,67 @@ body{
 	content: url('https://api.iconify.design/fa6-brands/java.svg?color=white&width=75&height=75');
 	//border-radius:50%; // circle border
 }
-
+*/
 #cpp{
-	background: url('https://api.iconify.design/gg/c-plus-plus.svg?color=black&width=75&height=75') no-repeat center center / contain;
-	content: url('https://api.iconify.design/gg/c-plus-plus.svg?color=black&width=75&height=75');
+	background: url('https://api.iconify.design/gg/c-plus-plus.svg?color=white&width=75&height=75') no-repeat center center / contain;
+	content: url('https://api.iconify.design/gg/c-plus-plus.svg?color=white&width=75&height=75');
 }
+/*
 #cpp:hover{
 	background: url('https://api.iconify.design/gg/c-plus-plus.svg?color=white&width=75&height=75') no-repeat center center / contain;
 	content: url('https://api.iconify.design/gg/c-plus-plus.svg?color=white&width=75&height=75');
 }
+*/
 #c{
-	background: url('https://api.iconify.design/mdi/alpha-c.svg?color=black&width=75&height=75') no-repeat center center / contain;
-	content: url('https://api.iconify.design/mdi/alpha-c.svg?color=black&width=75&height=75');
+	background: url('https://api.iconify.design/mdi/alpha-c.svg?color=white&width=75&height=75') no-repeat center center / contain;
+	content: url('https://api.iconify.design/mdi/alpha-c.svg?color=white&width=75&height=75');
 }
+/*
 #c:hover{
 	background: url('https://api.iconify.design/mdi/alpha-c.svg?color=white&width=75&height=75') no-repeat center center / contain;
 	content: url('https://api.iconify.design/mdi/alpha-c.svg?color=white&width=75&height=75');
 }
+*/
 #mysql{
-	background: url('https://api.iconify.design/tabler/brand-mysql.svg?color=black&width=75&height=75') no-repeat center center / contain;
-content: url('https://api.iconify.design/tabler/brand-mysql.svg?color=black&width=75&height=75');
+	background: url('https://api.iconify.design/tabler/brand-mysql.svg?color=white&width=75&height=75') no-repeat center center / contain;
+content: url('https://api.iconify.design/tabler/brand-mysql.svg?color=white&width=75&height=75');
 }
+/*
 #mysql:hover{
 	background: url('https://api.iconify.design/tabler/brand-mysql.svg?color=white&width=75&height=75') no-repeat center center / contain;
 content: url('https://api.iconify.design/tabler/brand-mysql.svg?color=white&width=75&height=75');
 }
+*/
 #html{
-	background: url('https://api.iconify.design/icomoon-free/html-five2.svg?color=black&width=75&height=75') no-repeat center center / contain;
-	content: url('https://api.iconify.design/icomoon-free/html-five2.svg?color=black&width=75&height=75');
+	background: url('https://api.iconify.design/icomoon-free/html-five2.svg?color=white&width=75&height=75') no-repeat center center / contain;
+	content: url('https://api.iconify.design/icomoon-free/html-five2.svg?color=white&width=75&height=75');
 }
+/*
 #html:hover{
 	background: url('https://api.iconify.design/icomoon-free/html-five2.svg?color=white&width=75&height=75') no-repeat center center / contain;
 	content: url('https://api.iconify.design/icomoon-free/html-five2.svg?color=white&width=75&height=75');
 }
+*/
 #css{
-	background: url('https://api.iconify.design/ion/logo-css3.svg?color=black&width=75&height=75') no-repeat center center / contain;
-	content: url('https://api.iconify.design/ion/logo-css3.svg?color=black&width=75&height=75');
+	background: url('https://api.iconify.design/ion/logo-css3.svg?color=white&width=75&height=75') no-repeat center center / contain;
+	content: url('https://api.iconify.design/ion/logo-css3.svg?color=white&width=75&height=75');
 }
+/*
 #css:hover{
 	background: url('https://api.iconify.design/ion/logo-css3.svg?color=white&width=75&height=75') no-repeat center center / contain;
 	content: url('https://api.iconify.design/ion/logo-css3.svg?color=white&width=75&height=75');
 }
+*/
 #js{
-	background: url('https://api.iconify.design/cib/js.svg?color=black&width=75&height=75') no-repeat center center / contain;
-content: url('https://api.iconify.design/cib/js.svg?color=black&width=75&height=75');
+	background: url('https://api.iconify.design/cib/js.svg?color=white&width=75&height=75') no-repeat center center / contain;
+content: url('https://api.iconify.design/cib/js.svg?color=white&width=75&height=75');
 }
+/*
 #js:hover{
 	background: url('https://api.iconify.design/cib/js.svg?color=white&width=75&height=75') no-repeat center center / contain;
 content: url('https://api.iconify.design/cib/js.svg?color=white&width=75&height=75');
 }
-
+*/
 
 .write{
 	//float:left;
@@ -324,6 +337,51 @@ input[type=email]{
 		 background-image: radial-gradient(circle at center, #899Dc4, #495D84);
 }
 
+#topBtn {
+	font-size:50px;
+	color:white;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#topBtn:hover {
+   color: black;
+		 background: linear-gradient(to bottom, #ffcc00 0%, #99ffcc 100%);
+}
+
+footer{
+	height:200px;
+	clear:both;
+//background:black;
+}
+
+
+
+
+.card {
+     background: #020617;
+	
+    padding: 20px;
+	margin:20px;
+    border-radius: 12px;
+   /* box-shadow: 0 5px 15px rgba(0,0,0,0.1); */
+	box-shadow:5px 5px 10px gray;
+    transition: 0.3s;
+	
+}
+
+.card:hover {
+    /*transform: translateY(-5px);*/
+	transform: scale(1.04);
+    //background: rgba(0,255,255,0.2);
+}
+
 #media{
 	text-align:center;
 	margin-top:50px;
@@ -355,55 +413,3 @@ input[type=email]{
 	content: url('https://api.iconify.design/simple-icons/leetcode.svg?color=black&width=50&height=50');
 }
 
-#topBtn {
-	font-size:50px;
-	color:white;
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-}
-
-#topBtn:hover {
-   color: black;
-		 background: linear-gradient(to bottom, #ffcc00 0%, #99ffcc 100%);
-}
-
-footer{
-	height:200px;
-	clear:both;
-//background:black;
-}
-
-
-
-.cards {
-                display: flex;
-            justify-content: space-between;
-            
-            
-            
-	
-}
-
-.card {
-     background: rgba(255,255,255,0.1);
-	
-    padding: 20px;
-	margin:20px;
-    border-radius: 12px;
-   /* box-shadow: 0 5px 15px rgba(0,0,0,0.1); */
-	box-shadow:5px 5px 10px gray;
-    transition: 0.3s;
-	
-}
-
-.card:hover {
-    /*transform: translateY(-5px);*/
-	transform: scale(1.04);
-    background: rgba(0,255,255,0.2);
-}
