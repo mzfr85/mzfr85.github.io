@@ -28,16 +28,16 @@
 					
 					<div id = "menu">
 						<ul class="navbar-nav">
-						  <li> 	<a href="#home">About</a> </li>
-						  <li>	<a href="#skills">Skills</a> </li>
-						  <li>	<a href="#edu">Education</a> </li>
-						  <li>	<a href="#courses">Courses</a> </li>
-						  <li>	<a href="#exp">Experience</a>  </li>
+						  <li class="menu-item active-bg" onclick="changeBackground(this)"> 	<a href="#home">About</a> </li>
+						  <li class="menu-item" onclick="changeBackground(this)">	<a href="#skills">Skills</a> </li>
+						  <li class="menu-item" onclick="changeBackground(this)">	<a href="#edu">Education</a> </li>
+						  <li class="menu-item" onclick="changeBackground(this)">	<a href="#courses">Courses</a> </li>
+						  <li class="menu-item" onclick="changeBackground(this)">	<a href="#exp">Experience</a>  </li>
 						  
-						  <li>	<a href="#pro">Project</a> </li>
-						  <li>	<a href="#intr">Interests</a> </li>
-						  <li>	<a href="#blog">Blog</a> </li>
-						  <li>	<a href="#contact">Contact</a> </li>
+						  <li class="menu-item" onclick="changeBackground(this)">	<a href="#pro">Project</a> </li>
+						  <li class="menu-item" onclick="changeBackground(this)">	<a href="#intr">Interests</a> </li>
+						  <li class="menu-item" onclick="changeBackground(this)">	<a href="#blog">Blog</a> </li>
+						  <li class="menu-item" onclick="changeBackground(this)">	<a href="#contact">Contact</a> </li>
 						</ul>
 					</div>
 					
@@ -359,10 +359,26 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 </script>
-				
-				
-		<!--	</div>  content div end  -->
-	<!--	</div> wrapper div end-->
+<!-- script for menu item selection-->
+<script>
+
+function changeBackground(element) {
+  // 1. Get all menu items
+  const items = document.querySelectorAll('.menu-item');
+
+  // 2. Remove the 'active-bg' class from all items
+  items.forEach(item => {
+    item.classList.remove('active-bg');
+  });
+
+  // 3. Add the 'active-bg' class to the clicked element
+  element.classList.add('active-bg');
+}
+
+</script>
+
+
+
 	</body>
 
 </html>

@@ -59,9 +59,7 @@ body{
 	list-style: none;
 }
 
-#menu ul li {
-	height:30;
-}
+
 
 #menu ul li a {
 	text-decoration: none;
@@ -75,6 +73,22 @@ body{
 		 background-image: radial-gradient(circle at center, #899Dc4, #495D84);
 }
 
+
+.menu-item {
+
+	height:30;
+ // padding: 10px 20px;
+ // cursor: pointer;
+ // list-style: none;
+ // display: inline-block;
+ // transition: background 0.3s ease; /* Smooth transition */
+}
+
+/* This class will be applied on click */
+.active-bg {
+	color: black;
+	background-image: radial-gradient(circle at center, #899Dc4, #495D84);
+}
 
 
 
