@@ -69,8 +69,9 @@ body{
 }
 
 #menu ul li a:hover{
-         color: black;
-		 background-image: radial-gradient(circle at center, #899Dc4, #495D84);
+         //color: black;
+		// background-image: radial-gradient(circle at center, #899Dc4, #495D84);
+		 background:#0f172a;
 }
 
 
@@ -87,7 +88,8 @@ body{
 /* This class will be applied on click */
 .active-bg {
 	color: black;
-	background-image: radial-gradient(circle at center, #899Dc4, #495D84);
+	//background-image: radial-gradient(circle at center, #899Dc4, #495D84);
+	background:#0f172a;
 }
 
 
